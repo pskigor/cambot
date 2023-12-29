@@ -142,6 +142,10 @@ foreach ($tg->result as $value) {
                     'text' => 'Фото с камер',
                     'callback_data' => '/cam',
                 ),
+                array(
+                    'text' => 'Состояние сервера',
+                    'callback_data' => '/serverinfo',
+                ),
             ),
         );
         //Выбираем событие
